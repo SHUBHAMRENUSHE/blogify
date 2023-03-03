@@ -3,7 +3,7 @@ const app = express();
 const dotenv= require('dotenv')
 const mongoose = require('mongoose')
 const authroute = require('./routes/auth')
-const userroute = require('./routes/Users')
+const userroute = require('./routes/users')
 const postroute = require('./routes/posts')
 const categoryRoute = require('./routes/categories')
 const multer = require('multer')
@@ -48,7 +48,7 @@ app.post("/api/upload",upload.single("file"),(req,res)=>{  // file is the "key" 
 
 
 app.use("/api/auth",authroute)
-app.use("/api/Users",userroute)
+app.use("/api/users",userroute)
 app.use("/api/posts",postroute)
 app.use("/api/categories",categoryRoute)
 
