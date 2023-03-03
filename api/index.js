@@ -54,13 +54,13 @@ app.use("/api/categories",categoryRoute)
 
 //Static files for deployment
 
-app.use(express.static(path.join(__dirname,"./blogapp/build")))
+// app.use(express.static(path.join(__dirname,"./blogapp/build")))
 
-app.get("*",(req,res)=>{
-    res.sendFile(path.join(__dirname,"./blogapp/build/index.html"))
-})
+// app.get("*",(req,res)=>{
+//     res.sendFile(path.join(__dirname,"./blogapp/build/index.html"))
+// })
 
-app.listen(process.env.PORT|| 5000)
+// app.listen(process.env.PORT|| 5000)
 
 // app.listen("5000",()=>{
 //     console.log("Backend is running");
