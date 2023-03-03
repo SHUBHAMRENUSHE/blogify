@@ -48,7 +48,7 @@ app.post("/api/upload",upload.single("file"),(req,res)=>{  // file is the "key" 
 
 
 app.use("/api/auth",authroute)
-app.use("/api/users",userroute)
+app.use("/api/Users",userroute)
 app.use("/api/posts",postroute)
 app.use("/api/categories",categoryRoute)
 
