@@ -1,0 +1,63 @@
+.register{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("https://blog.prepscholar.com/hubfs/main_register.jpg");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm> label{
+    margin: 10px 0;
+
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;    
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    
+}
+
+.registerButton{
+    margin-top: 17px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    width: 120px;
+}
+
+
+
